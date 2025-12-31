@@ -1,0 +1,14 @@
+### Check server
+GET http://localhost:3000
+
+### Tengok semua notes (belum buat lagi)
+GET http://localhost:3000/notes
+
+### Buat note baru (belum buat)
+POST http://localhost:3000/notes
+Content-Type: application/json
+
+{
+  "title": "Note pertama",
+  "body": "Hello world"
+}
